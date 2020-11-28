@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "password_generator"
 version = "0.0.1"
-description = "Generate a password"
+description = "A simple lib that prints a password, of a specified length"
 authors = ["SimonN <65023744+Simon994@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
