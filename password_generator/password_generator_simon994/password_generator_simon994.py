@@ -1,4 +1,4 @@
-import string, random
+import string, random, pyperclip
 
 def generate_password(default_length=10):
     inputted_length = input("How long should the password be? Please provide a number or hit enter for default length of 10: ")
@@ -8,7 +8,8 @@ def generate_password(default_length=10):
     for i in range(password_length):
         password += (random.choice(available_characters))
 
-    print(password)
+    pyperclip.copy(password)
+    print(f"Copied to clipboard! Your new password: {password}")
 
 
 

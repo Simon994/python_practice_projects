@@ -6,6 +6,7 @@ authors = ["SimonN <65023744+Simon994@users.noreply.github.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.6"
+pyperclip = "^1.8.1"
 
 [tool.poetry.dev-dependencies]
 pytest = "^4.6"
