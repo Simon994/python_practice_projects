@@ -1,10 +1,10 @@
 [tool.poetry]
 name = "password_generator_simon994"
-version = "0.0.4"
+version = "0.0.5"
 description = "A simple password generator. Generates, prints and copies a password to the clipboard"
 authors = ["SimonN <65023744+Simon994@users.noreply.github.com>"]
 license = "MIT"
-readme = "README.rst"
+readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.6"
